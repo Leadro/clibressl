@@ -70,3 +70,4 @@
 #import "x509.h"
 #import "x509_vfy.h"
 #import "x509v3.h"
+#import "pkcs7_union_accessors"
