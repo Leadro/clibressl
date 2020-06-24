@@ -158,7 +158,7 @@ tls_check_subject_altname(struct tls *ctx, X509 *cert, const char *name)
 			} else {
 #ifdef DEBUG
 				fprintf(stdout, "%s: unhandled subjectAltName "
-				    "dNSName encoding (%d)\n", getprogname(),
+				    "dNSName encoding (%d)\n", "getprogname()",
 				    format);
 #endif
 			}
