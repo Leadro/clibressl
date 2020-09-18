@@ -152,7 +152,8 @@ typedef struct x509_lookup_method_st
  * parameters used can be customized
  */
 
-typedef struct X509_VERIFY_PARAM_st
+//MAXIMT
+typedef struct X509_VERIFY_PARAM_st_LIBRE
 	{
 	char *name;
 	time_t check_time;	/* Time to use */
